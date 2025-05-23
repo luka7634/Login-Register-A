@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Iniciar Sesión</title>
-        <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
-    </head>
-    <body>
-        <div class="login-container">
-            <div class="login-header">
-                <h1>Bienvenido</h1>
-                <p>Por favor inicia sesión en tu cuenta.</p>
-            </div>
-            <form class="login-form" accept-charset="utf-8">
-                <div class="form-group">
-                    <label for="username">Usuario</label>
-                    <input type="text" name="username" id="username" placeholder="Ingresa tu nombre de usuario" required autofocus autocomplete="on"/>
-                </div>
-                <div class="form-group">
-                    <label for="password">Contraseña</label>
-                    <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" required/>
-                </div>
-                <div class="form-options">
-                    <label>
-                        <input type="checkbox" name="remember" /> Recordarme
-                    </label>
-                    <a href="#">¿Olvidaste tu contraseña?</a>
-                </div>
-                <button type="submit" class="login-button">Iniciar Sesión</button>
-                <div class="login-footer">
-                    <p>¿No tienes cuenta? <a href="./reg.html">Regístrate</a></p>
-                </div>
-            </form>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iniciar Sesión</title>
+    <link
+      rel="stylesheet"
+      href="./styles/styles.css"
+      type="text/css"
+      media="all"
+    />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-header">
+        <h1>Bienvenido</h1>
+        <p>Por favor inicia sesión en tu cuenta.</p>
+      </div>
+      <form class="login-form" accept-charset="utf-8">
+        <div class="form-group">
+          <label for="username">Usuario</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Ingresa tu nombre de usuario"
+            required
+            autofocus
+            autocomplete="on"
+          />
         </div>
-    </body>
+        <div class="form-group">
+          <label for="password">Contraseña</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Ingresa tu contraseña"
+            required
+          />
+        </div>
+        <div class="form-options">
+          <label> <input type="checkbox" name="remember" /> Recordarme </label>
+          <a href="#">¿Olvidaste tu contraseña?</a>
+        </div>
+        <button type="submit" class="login-button">Iniciar Sesión</button>
+        <div class="login-footer">
+          <p>¿No tienes cuenta? <a href="./reg.html">Regístrate</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
